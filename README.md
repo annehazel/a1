@@ -1,2 +1,4 @@
-# a1
-assignment 1 - dynamic web applications
+# Assignment 1 - dynamic web applications (a1)
+
+Production URL: a1.annehazel.me
+
