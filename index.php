@@ -23,15 +23,15 @@
     <div>
         <?php
             $quoteArray = [
-                0 => 'Hacer de tripas corazón.',
-                1 => 'El que algo quiere, algo le cuesta.',
-                2 => 'En los nidos de antaño, no hay pájaros hogaño.',
-                3 => 'El mejor halago es que lo imiten a uno.',
-                4 => 'A diario una manzana es cosa sana.'
+                    "Hacer de tripas corazón.",
+                    "El que algo quiere, algo le cuesta.",
+                    "En los nidos de antaño, no hay pájaros hogaño.",
+                    "El mejor halago es que lo imiten a uno.",
+                    "A diario una manzana es cosa sana."
          ];
         
         
-        $quote = 'Final Quote';
+        $quote = $quoteArray[array_rand($quoteArray, 1)];
         echo $quote;
     ?>
     
